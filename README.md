@@ -34,12 +34,24 @@ O site buckets.grayhatwarfare.com mostra buckets possivelmente inseguros e é mu
 
 ## Qual capacidade dessa ferramenta?
 
-Utilizamos uma lista gigante de proxys pra AmazonAWS não bloquear nossas requisições, esses proxys geralmente são pegas em sites como ProxyDaily.com (onde todo dia são lançada milhares de proxy em texto puro). A lista de sites pode ser exportada através do Alexa. 
+Utilizamos uma lista gigante de proxys pra AmazonAWS não bloquear nossas requisições, esses proxys geralmente são pegas em sites como ProxyDaily.com (onde todo dia são lançada milhares de proxy em texto puro). A lista de sites pode ser exportada através do Alexa.
 
 A lista para fuzzer (brute force nos buckets) foi cedida pela ferramenta do Subsolo (este mesmo que encontrou 10 milhões de dados do Buscapé dando sopa http://abre.ai/buscapedados; blog pessoal dele aqui http://5ubtools.blogspot.com)
 
 ## Como rodar a ferramenta?
+
+**proxyList.log** deverá ter sua lista de proxys (procure uma boa)
+**sitesCheckout.log** irá ter os sites para verificar (já deixei os sites top da Alexa)
+**sitesInicio.log** irá ter uma lista de fuzzers pra colocar no inicio do nosso brute force
+**sitesFinal.log** irá ter uma lista de fuzzers pra colocar no final do nosso brute force
+**subdomais.log** terá uma lista de subdomínios pra acrescentar em nosso bruteforce
+
 Apenas dê **node index.js** após instalar as bibliotecas necessárias (**npm install**)
+
+Vão ser gerado 2 arquivos doublefindUris e findUris
+
+O **findUris** é a lista real de buckets encontrados, o **doubleFindUris** é uma lista de possíveis sites que podem ter retornado com falso positivo (algumas vezes as proxy de má qualidade retornam falsos positivos)
+
 
 ## Contato
 
