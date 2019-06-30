@@ -25,6 +25,10 @@ https://santander.s3.amazonaws.com
 https://hotmart.com.s3.amazonaws.com
 https://expedia.s3.amazonaws.com
 
+Em um desses buckets encontrei algo relacionado ao Banco Pan no qual expõe milhões de dados de usuários e aparentemente já tem reclamações a respeito disso na Internet
+https://www.reclameaqui.com.br/banco-pan/vazamento-de-dados_8MYIwYIvUCW1ZEMN/
+
+
 *e outros milhares ...*
 
 ## Isso chega a ser um problema de segurança?
