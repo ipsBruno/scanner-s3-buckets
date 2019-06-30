@@ -129,9 +129,9 @@ function double(name) {
 
 // Aqui farei fuzzer do subsolo no inicio e no fim
 // mercadolivre.com.br
-//mercadolivre
-//mercadolivre-app
-//app.mercadolivre
+// mercadolivre
+// mercadolivre-app
+// app.mercadolivre
 // etc
 
 function fuzzer(uri) {
