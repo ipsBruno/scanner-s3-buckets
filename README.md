@@ -26,7 +26,7 @@ https://hotmart.com.s3.amazonaws.com
 https://expedia.s3.amazonaws.com
 
 Em um desses buckets encontrei algo relacionado ao Banco Pan no qual expõe milhões de dados de usuários e aparentemente já tem reclamações a [respeito disso na Internet](https://www.reclameaqui.com.br/banco-pan/vazamento-de-dados_8MYIwYIvUCW1ZEMN/);
- é realmente preocupante esses dados serem vazados na internet. Lembrando que não são casos isolados e existe um projeto no Github só pra mostrar os vazamentos que já aconteceram usando servidores S3: https://github.com/nagwww/s3-leaks
+ é realmente preocupante esses dados serem vazados na internet. Lembrando que não são casos isolados e existe um projeto no Github só pra mostrar os vazamentos que já aconteceram [usando servidores S3](https://github.com/nagwww/s3-leaks)
 
 
 *e outros milhares ...*
