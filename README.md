@@ -3,7 +3,9 @@
 
 Isso é uma ferramenta em NodeJS pra fazer scanner em S3 de sites na internet
 
-Tendo uma lista válida de sites, basta iniciar o scanner e ele irá retornar sites com S3 em aberto. Milhares talvez milhões de sites tem S3 públicos, alguns desses sites tem graves falhas que permitem usar o S3 como forma de ganhar escalar acesso
+Tendo uma lista válida de sites, basta iniciar o scanner e ele irá retornar sites com S3 em aberto. 
+
+Milhares talvez milhões de sites tem S3 públicos, alguns desses sites tem graves falhas que permitem usar o S3 como forma de escalar acesso
 
 
 **Leia isso:**
